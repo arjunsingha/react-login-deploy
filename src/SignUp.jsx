@@ -20,7 +20,7 @@ const SignUp = () => {
     return ( 
         <div className='d-flex justify-content-center align-items-center bg-secondary vh-100 vw-100'>
             <div className="bg-white p-3 rounded">
-            <h2>Register</h2>
+            <h2>Register Yourself</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="form-group p-3">
                         <label for="exampleInputName">Name</label>
