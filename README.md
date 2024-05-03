@@ -65,3 +65,9 @@ artifacts:
 >> go to codepipeline
 >> give name
 choose source provider
+
+
+# to add environmental variable
+>>code build >>select project >>edit >>Additional configuration >>add variables as key value pair
+
+....BASE_URL

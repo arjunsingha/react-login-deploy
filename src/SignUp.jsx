@@ -14,7 +14,8 @@ const SignUp = () => {
 
     const handleSubmit = (e)=>{
         e.preventDefault();
-        console.log(name, email, password)
+        console.log(name, email, password);
+        console.log(import.meta.env.VITE_BASE_API_URL)
     }
 
     return ( 
